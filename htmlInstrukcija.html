@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Instructions | Brick Breaker</title>
+		<link rel="stylesheet" href="global.css">
+		<style>
+			.content {
+				padding:1em;
+				padding-bottom:3em;
+			}
+			.fons {
+				height: auto;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="fons" id="fons">
+			<div class="content">
+				<h1>Instructions</h1>
+				<p>You goal is to destroy all of the bricks in the game as fast as you can. There are 3 levels. You can do that by deflecting with a paddle. If the ball touches the bricks, it destorys them. If the ball touches the red line, you lose one of your three lives. If you run out of lives, you lose.</p>
+				<h2>What is on the game field?</h2>
+				<p><strong>On the game field is:</strong></p>
+				<ul>
+					<li>destroyable (green, yellow and red) bricks,</li>
+						<ul><li>when you destroy these bricks, you gain points;</li></ul>
+					<li>the ball,</li>
+						<ul><li>the ball is a freely-moving object, which can destroy bricks, which you have to deflect with the paddle and direct towards the brick field;</li></ul>
+					<li>the paddle,</li>
+						<ul><li>you control this object,</li>
+						<li>it moves only from left to right,</li>
+						<li>it can deflect the ball;</li></ul>
+					<li>red line,</li>
+							<ul><li>line, which deducts a life if the ball touches it.</li></ul>
+				</ul>
+				<h2>How do you gain points?</h2>
+				<p>You get points when the ball destroys a brick, but not all bricks give the same amount of points. Point chart:</p>
+				<table style="border:3px solid white">
+					<tr>
+						<th><strong>What color brick destroyed?</strong></th>
+						<th><strong>Gained points</strong></th>
+					</tr><tr>
+						<td>Green</td>
+						<td>1</td>
+					</tr><tr>
+						<td>Yellow</td>
+						<td>2</td>
+					</tr><tr>
+						<td>Red</td>
+						<td>3</td>
+					</tr>
+				</table>
+				<h2>How to control the paddle?</h2>
+				<table>
+					<td style="width:75%"><p>You can control it using a keyboard – the left arrow moves it leftward, but the right arrow moves it rightward. Its goal is to deflect the ball from touching the red line beneath it, and direct it towards the brick field.</p></td>
+					<td style="width:25%;"><img src="arrows.png" height="130px" width="196px"></td>
+				</table>
+				<h2>What are levels?</h2>
+				<p>The game has 3 levels – once you destroy all of the bricks in one level, the player is transported to the next level. With every level the game gets harder – the ball's speed increases and the brick field changes.</p>
+				<h2>What are lives? What would happen if the ball touched the red line?</h2>
+				<p>You have 3 lives. If the ball touches the red line, you lose one life. If you lose your last (third) life, you lose the game.</p>
+				<h2>GAME OVER.</h2>
+				<p>If you win, an alert pops up with "WINNER" displayed and the recorded game statistics. Compete with friends and compare your speed!</p>
+				<p>If you lose, you get the “Game Over” alert and the satistics. If you want to play again, you have to start from the beginning.</p>
+			</div>
+		</div>
+	</body>
+</html>
